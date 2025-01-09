@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Messenger</title>
+    <style>
+        body {
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Dark text color */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        header {
+            background-color: #2c3e50; /* Dark blue color */
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+        }
+
+        h1 {
+            font-size: 32px; /* Increased font size for the title */
+            margin: 0;
+            color: #ecf0f1; /* Light color for the title */
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin: 0 20px; /* Increased spacing between links */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #ecf0f1; /* Light link color */
+            font-size: 1.1em; /* Slightly smaller font size */
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #3498db; /* Bright blue on hover */
+        }
+
+        main {
+            padding: 40px; /* Increased padding for main content */
+            background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
+            margin: 20px;
+            border-radius: 8px; /* Rounded corners */
+            flex: 1; /* Allow main content to take available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+            overflow: hidden; /* Prevent scrolling in main content */
+        }
+
+        h2 {
+            font-size: 2.5em; /* Increased font size for headings */
+            margin-bottom: 20px;
+            color: #2c3e50; /* Dark color for subheadings */
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2em; /* Adjusted font size */
+            text-align: center;
+            color: #555; /* Medium grey color for paragraph text */
+        }
+
+        .features {
+            margin: 20px 0; /* Space between features and other content */
+            text-align: left; /* Align features text to the left */
+        }
+
+        .features h3 {
+            font-size: 2em; /* Slightly smaller than main heading */
+            color: #2c3e50; /* Dark color for subheading */
+        }
+
+        .features ul {
+            list-style: none; /* Remove default list style */
+            padding: 0; /* Remove padding */
+        }
+
+        .features li {
+            font-size: 1.2em; /* Font size for features */
+            margin-bottom: 10px; /* Space between feature items */
+            color: #555; /* Medium grey color for text */
+        }
+
+        .cta {
+            margin-top: 30px; /* Space above call to action */
+            text-align: center; /* Center the text */
+        }
+
+        .cta p {
+            font-size: 1.5em; /* Larger font size for call to action text */
+            margin-bottom: 10px; /* Space below the text */
+        }
+
+        .login-button {
+            background-color: #3498db; /* Bright blue button color */
+            color: #fff; /* White text color */
+            padding: 10px 20px; /* Button padding */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners for button */
+            text-decoration: none; /* Remove underline */
+            font-size: 1.2em; /* Font size for button text */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .login-button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+
+        footer {
+            background-color: #2c3e50; /* Dark blue color */
+            text-align: center;
+            padding: 10px;
+            position: relative; /* Ensure footer is at the bottom */
+        }
+
+        footer p {
+            color: #ecf0f1; /* Light color for footer text */
+            margin: 0; /* Remove default margin */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chat Messenger</h1>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.jsp">Login</a></li>
+                <li><a href="register.jsp">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to Chat Messenger!</h2>
+            <p>Connect with your friends and share your thoughts instantly.</p>
+            <div class="features">
+                <h3>Features:</h3>
+                <ul>
+                    <li>✨ Real-time messaging</li>
+                    <li>👥 Group chats to connect with multiple friends</li>
+                    <li>📸 Share images and videos easily</li>
+                    <li>🔒 Private and secure conversations</li>
+                </ul>
+            </div>
+            <div class="cta">
+                <p>Ready to start chatting? Log in to connect!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Copy Rights</p>
+    </footer>
+</body>
+</html>
